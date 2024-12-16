@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+    background-color: silver;
+}
+.s1 > p
+{
+    color: green;
+}
+section
+{
+    background-color: beige;
+    margin: 12px;
+}
+div>p
+{
+    /* background-color: green; */
+}
+/* h3+h5+p
+{
+    background-color: aqua;
+} */
+ /* section p+li
+{
+    background-color: red;
+} */
+button
+{
+    padding: 10px 20px;
+    background-color: greenyellow;
+    color: black;
+    border-radius: 8px;
+    transition: all 1s ease-in-out;
+}
+/* button:hover
+{
+    border: none;
+    color: white;
+    background-color: purple;
+    height: 60px;
+    width: 100px;
+} */
+button:active
+{
+    opacity:0.3;
+}
+a
+{
+    font-size: 32px;
+    text-decoration: none;
+}
+a:visited
+{
+    color: aqua;
+}
+h2:active
+{
+    color: red;
+}
+/* li:first-child
+{
+    color: darkblue;
+} */
+li:last-child
+{
+    color: purple;
+}
+li:nth-child(3)
+{
+    color: brown;
+}
+li:first-of-type
+{
+    color: darkblue;
+}

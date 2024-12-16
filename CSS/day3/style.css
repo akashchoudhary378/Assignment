@@ -1,0 +1,67 @@
+.c1
+{
+    color: red;
+    font-style: italic;
+}
+.c2
+{
+    background-color: yellow;
+    font-size: large;
+}
+.c1.c2
+{
+    background-color: aquamarine;
+}
+
+.p1
+{
+    color:green;
+    background-color: aqua;
+}
+h4.p1
+{
+    color: brown;
+    background-color: blueviolet;
+}
+h2.p1 
+{
+    color: purple;
+    background: red;
+}
+.parent-1
+{
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 16px;
+    margin: 20px;
+    width: 200px;
+    
+}
+.parent-2
+{
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 16px;
+    margin: 20px;
+    width: 200px;
+    box-sizing: border-box;
+}
+
+
+p
+{
+    color: green;
+}
+
+#parent
+{
+    font-size: 20px;
+    background-color: red;
+}
+#child
+{
+    font-size: 1em;
+    height: 10em;
+    width: 10em;
+    background-color: green;
+}
